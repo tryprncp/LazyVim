@@ -63,14 +63,14 @@ to tweak your config as needed, along with the convenience of a pre-configured s
 
 ## 🚀 Getting Started
 
-You can find a starter template for **LazyVim** [here](https://github.com/LazyVim/starter)
+You can find a starter template for **LazyVim** [here](https://github.com/tryprncp/starter)
 
 <details><summary>Try it with Docker</summary>
 
 ```sh
 docker run -w /root -it --rm alpine:edge sh -uelic '
   apk add git lazygit neovim ripgrep alpine-sdk --update
-  git clone https://github.com/LazyVim/starter ~/.config/nvim
+  git clone https://github.com/tryprncp/starter ~/.config/nvim
   cd ~/.config/nvim
   nvim
 '
@@ -78,7 +78,7 @@ docker run -w /root -it --rm alpine:edge sh -uelic '
 
 </details>
 
-<details><summary>Install the <a href="https://github.com/LazyVim/starter">LazyVim Starter</a></summary>
+<details><summary>Install the <a href="https://github.com/tryprncp/starter">LazyVim Starter</a></summary>
 
 - Make a backup of your current Neovim files:
 
@@ -90,7 +90,7 @@ docker run -w /root -it --rm alpine:edge sh -uelic '
 - Clone the starter
 
   ```sh
-  git clone https://github.com/LazyVim/starter ~/.config/nvim
+  git clone https://github.com/tryprncp/starter ~/.config/nvim
   ```
 
 - Remove the `.git` folder, so you can add it to your own repo later
